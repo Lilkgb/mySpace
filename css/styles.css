@@ -1,0 +1,45 @@
+.main {
+  height: 1000px;
+  width: 800px;
+  background-color: white;
+}
+.header {
+  width: 800px;
+  height: 125px;
+  background-color: darkblue;
+}
+
+.top {
+  height: 29px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+  color: white;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+.things {
+  height: 17px;
+  padding: 0;
+  margin-right: 10px;
+}
+button {
+  background-color: lightblue;
+}
+body {
+  background-color: gray;
+}
+
+.tabs {
+  height: 26px;
+  width: 800px;
+  display: flex;
+  background-color: green;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  font-size: 13px;
+  font-family: sans-serif;
+}
