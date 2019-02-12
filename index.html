@@ -3,46 +3,229 @@
   <head>
     <meta charset="utf-8">
     <title>MySpace</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <div class="header">
-      <div class="top">
-        <p>MySpace.com | Home</a></p>
-        <div>
-          The Web <input type="radio">
-          MySpace <input type="radio">
-          <input type="text" class="things">
-          <button type="button">Search</button>
-        </div>
-        <p>Help | SignUp</p>
-      </div>
-    </div>
-    <div class="tabs">
-      <p>Home  |  Browse  |  Search  |  Invite  |  Film  |  Mail  |  Blog  |  Favorites  |  Forum  |  Groups  |  Events  |  Videos  |  Music  |  Classifieds</p>
-    </div>
-    <div class="main">
-      <div class="leftCol">
-        <div id="name">
-        </div>
-        <div id="profInfo">
-        </div>
-        <div id="contact">
-        </div>
-        <div id="url">
-        </div>
-        <div id="interests">
-        </div>
-        <div id="details">
-        </div>
-        <div id="school">
+    <div id="wholeThing">
+      <div class="header">
+        <div class="top">
+          <p>MySpace.com | Home</a></p>
+          <div>
+            The Web <input type="radio">
+            MySpace <input type="radio">
+            <input type="text" class="input">
+            <button type="button">Search</button>
+          </div>
+          <p>Help | SignUp</p>
         </div>
       </div>
-
-      <div class="rightCol">
+      <div class="tabs">
+        <p>Home  |  Browse  |  Search  |  Invite  |  Film  |  Mail  |  Blog  |  Favorites  |  Forum  |  Groups  |  Events  |  Videos  w|  Music  |  Classifieds</p>
       </div>
+      <div class="main">
+        <div class="leftCol">
+          <div id="name">
+            <p>Peter Griffin</p>
+          </div>
+          <div id="profInfo">
+            <div id="peterPic">
+              <img src="img/peter.jpeg" id="peter">
+              <p>View My: Pics | Videos</p>
+            </div>
+            <div clas="profText">
+              <p>"How do you use this myspace?"</p>
+              <br>
+              <p>Male</p>
+              <p>30 Years Old</p>
+              <p>Rhode Island,</p>
+              <p>Quahog</p>
+              <p>United States</p>
+              <p>Last Login: Today</p>
+            </div>
+          </div>
+          <div id="contact">
+            <h4>Contact Peter</h4>
+            <div id="text">
+              <div class="flexC1">
+                <p>Send Message</p>
+                <p>add to friends</p>
+                <p>Instant Message</p>
+                <p>Add to Group</p>
+              </div>
+              <div class="flexC2">
+                <p>Forward to Friend</p>
+                <p>Add to Favorites</p>
+                <p>Block User</p>
+                <p>Rank User</p>
+              </div>
+            </div>
+          </div>
+          <div id="url">
+            <p><b>MySpace URL</b></p>
+            <p id="urlText">myspace.com/petergriffin</p>
+          </div>
+          <div class="leftFormat">
+            <h4>Peter's Interests</h4>
+            <div class="newRow"> <!--General-->
+              <div class="name">
+                <p>General</p>
+              </div>
+              <div class="description">
+                <p>I don't like doing anything except for going to the bar with Quagmire and Joe</p>
+              </div>
+            </div>
+            <div class="newRow"> <!-- Music -->
+              <div class="name">
+                <p>Music</p>
+              </div>
+              <div class="description">
+                <p>I like to listen to Dubstep</p>
+              </div>
+            </div>
+            <div class="newRow"> <!--Movies-->
+              <div class="name">
+                <p>Movies</p>
+              </div>
+              <div class="description">
+                <p>I LOVE ROADHOUSE!!!!!!!</p>
+              </div>
+            </div>
+          </div>
+          <div class="leftFormat">
+            <h4>Peter's Details</h4>
+            <div class="newRow">
+              <div class="name">
+                <p>Status:</p>
+              </div>
+              <div class="description">
+                <p>Married to Louis</p>
+              </div>
+            </div>
+            <div class="newRow">
+              <div class="name">
+                <p>Here for:</p>
+              </div>
+              <div class="description">
+                <p>Funny MEMES!</p>
+              </div>
+            </div>
+            <div class="newRow">
+              <div class="name">
+                <p>Hometown:</p>
+              </div>
+              <div class="description">
+                <p>Quahog</p>
+              </div>
+            </div>
+            <div class="newRow">
+              <div class="name">
+                <p>Ethnicity:</p>
+              </div>
+              <div class="description">
+                <p>White</p>
+              </div>
+            </div>
+            <div class="newRow">
+              <div class="name">
+                <p>Smoke / Drink:</p>
+              </div>
+              <div class="description">
+                <p>MORE THAN YOU KNOW!</p>
+              </div>
+            </div>
+            <div class="newRow">
+              <div class="name">
+                <p>Occupation:</p>
+              </div>
+              <div class="description">
+                <p>Work at the Pawtucket Brewery</p>
+              </div>
+            </div>
+          </div>
+          <div class="leftFormat">
+            <h4>Peter's Schools</h4>
+            <div class="newRow">
+              <div class="schoolName">
+                <p>NONE</p>
+              </div>
+              <div class="schoolDescription">
+                <p>Current</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rightCol">
+          <div class="network">
+            <h2>Peter is in your network</h2>
+          </div>
+          <div id="blog">
+            <p><strong>Peters's Latest Blog Entry</strong> [Subscribe to this Blog]</p>
+            <p>Blog Entry 1</p>
+            <p>Blog Entry 2</p>
+            <p>Blog Entry 3</p>
+            <p>Blog Entry 4</p>
+            <p>Blog Entry 5</p>
+          </div>
+          <div id="blurbs">
+            <h4>Peters Blurbs</h4>
+            <div class="blurbs">
+              <p>About me:</p>
+              <p>I'm here to help you with MySpace. Send me a message if you're confused by anything. Before asking me a question, please check the FAQ to see if your question has already been answered. </p>
+              <br>
+              <p>I may have been on your friend list when you signed up. If you don't want me to be, click "Edit Friends" and remove me! </p>
+              <br>
+              <p>Also, feel free to tell me what features you want to see on MySpace and if I think it's cool, we'll do it!</p>
+            </div>
+          </div>
+          <div id="friendSpace">
+            <div class="friendText">
+              <p>Peter's FriendSpace</p>
+            </div>
+            <p>Peter has 6 friends</p>
+              <div class="friendPics">
+                <div>
+                  <p>name</p>
+                  <img src="img/peter.jpeg" class="picture">
+                </div>
+                <div>
+                  <p>name</p>
+                  <img src="img/peter.jpeg" class="picture">
+                </div>
+                <div>
+                  <p>name</p>
+                  <img src="img/peter.jpeg" class="picture">
+                </div>
+                <div>
+                  <p>name</p>
+                  <img src="img/peter.jpeg" class="picture">
+                </div>
+                <div>
+                  <p>name</p>
+                  <img src="img/peter.jpeg" class="picture">
+                </div>
+                <div>
+                  <p>name</p>
+                  <img src="img/peter.jpeg" class="picture">
+                </div>
+              </div>
 
-
+          </div>
+          <div id="comments">
+            <div class="rightRow"> <!--General-->
+              <div class="nameRight">
+                <p>Peter</p>
+                <img src="img/peter.jpeg" class="picture">
+              </div>
+              <div class="descriptionRight">
+                <h3></h3>
+                <p>Great job on making myspace peter! Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

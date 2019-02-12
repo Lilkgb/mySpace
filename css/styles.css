@@ -1,8 +1,30 @@
+#wholeThing {
+  margin-left: 35%;
+  margin-right: 25%;
+}
+
 .main {
-  height: 1000px;
+  display: flex;
   width: 800px;
   background-color: white;
 }
+
+.leftCol {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 300px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.rightCol {
+  display: flex;
+  flex-direction: column;
+  width: 440px;
+  margin: 20px;
+}
+
 .header {
   width: 800px;
   height: 125px;
@@ -20,13 +42,13 @@
   font-size: 13px;
   font-family: sans-serif;
 }
-.things {
+.input {
   height: 17px;
   padding: 0;
   margin-right: 10px;
 }
 button {
-  background-color: lightblue;
+  background-color: #b1d0f0;
 }
 body {
   background-color: gray;
@@ -36,10 +58,221 @@ body {
   height: 26px;
   width: 800px;
   display: flex;
-  background-color: green;
+  background-color: #6699cc;
   align-items: center;
   justify-content: space-around;
   color: white;
   font-size: 13px;
   font-family: sans-serif;
+}
+#name {
+  font-size: 18px;
+  padding-top: 10px;
+  margin-left: 20px;
+}
+p {
+  margin: 0;
+}
+
+#profInfo {
+  display: flex;
+  width: 300px;
+  margin-right:10px;
+  font-size: 12px;
+
+}
+#peter {
+  display: flex;
+  height: 160px;
+  width: auto;
+  justify-content: flex-start;
+  margin-right: 10px;
+}
+
+.profText {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#contact h4 {
+  background-color: #6699cc;
+  border:1px solid #6699cc;
+}
+
+#contact{
+  margin-top: 20px;
+  border:2px solid #6699cc;
+  width: 300px;
+  font-size: 13px;
+}
+
+#text {
+  display:flex;
+}
+
+.flexC1 {
+  margin-left: 10px;
+  display: flex;
+  width: 148px;
+  flex-direction: column;
+}
+
+.flexC2 {
+  display: flex;
+  width: 148px;
+  flex-direction: column;
+}
+#url {
+  margin-top: 20px;
+  border: 2px solid #b1d0f0;
+  width: 300px;
+  font-size: 13px;
+}
+#urlText {
+  margin-left:5px;
+}
+
+
+.leftFormat {
+  margin-top: 20px;
+  width: 300px;
+  border: 2px solid #6699cc;
+}
+.leftFormat h4 {
+  background-color: #6699cc;
+  margin-bottom: 2px;
+}
+
+.newRow {
+  display: flex;
+}
+
+.name{
+  display: flex;
+  flex-direction: column;
+  width: 105px;
+  background-color: #b1d0f0;
+  margin: 2px;
+  padding-left: 5px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  background-color: #d5e8fb;
+  margin: 2px;
+  padding-left: 5px;
+}
+
+.schoolName{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  background-color: #b1d0f0;
+  margin: 2px;
+  padding-left: 5px;
+}
+
+.schoolDescription {
+  display: flex;
+  flex-direction: column;
+  width: 85px;
+  background-color: #d5e8fb;
+  margin: 2px;
+  padding-left: 5px;
+}
+
+/* Start of the right Column */
+
+.network {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 440px;
+  height: 75px;
+  border: 2px solid black;
+}
+
+#blog {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width:inherit;
+  height: inherit;
+  padding:5px;
+}
+
+#blog p {
+  margin-top: 10px;
+}
+
+#blurbs {
+  margin-top:20px;
+}
+
+#blurbs h4 {
+  background-color: orange;
+  margin: 0;
+}
+.blurbs {
+  margin-left: 10px;
+}
+
+#friendSpace{
+  margin-top: 20px;
+}
+
+.friendPics {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.picture {
+  display: flex;
+  width: 85px;
+  margin-left: 5px;
+  margin-right:5px;
+  height: auto;
+  padding-bottom:10px
+}
+
+.friendText {
+  background-color: orange;
+}
+
+.rightRow {
+  display: flex;
+  width: 440px;
+}
+
+.nameRight{
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  background-color: #f9d6b4;
+  margin: 2px;
+  padding-left: 5px;
+  text-align:center;
+  justify-content: center;
+  align-items: center;
+}
+
+.descriptionRight {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  background-color: #ff9933;
+  margin: 2px;
+  padding-left: 5px;
+}
+
+#comments {
+  display: flex;
+  margin-top: 20px;
+
 }
